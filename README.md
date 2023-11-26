@@ -2,13 +2,19 @@
 <h3>Overview</h3>
 Stability: Tense horizons is a strategic simulation game built using the Python Pygame library, where players assume the role of a commander of an occupying foreign army. The game blends strategic decision-making with resource management, set against a backdrop rich in historical and geopolitical intricacies.
 
-Objective
-Players are tasked with maintaining stability and control over an occupied town. The challenge lies in balancing internal and external pressures, making tough decisions that affect the game's outcome.
+<h3>Objective</h3>
+Players are tasked with maintaining stability and control over an occupied province. The challenge lies in balancing internal and external pressures, making tough decisions that affect the game's outcome.
 
 Gameplay Mechanics
-Resource Management: Efficiently allocate troops, money, and supplies.
-Decision Trees: Make impactful choices that influence unrest, manpower, and international reputation.
-Dialogue Interactions: Engage with mayors, rebels, and diplomats for information and negotiations.
+<ul>
+  <ul></ul>
+  <li>Resource Management: Efficiently allocate troops, money, and supplies.</li>
+  <li>Decision Trees: Make impactful choices that influence unrest, manpower, and international reputation.</li>
+  <li>Dialogue Interactions: Engage with mayors, rebels, and diplomats for information and negotiations.</li>
+</ul>
+
+
+
 Key Features
 Adaptive Storyline: The narrative changes based on your decisions, leading to multiple endings.
 Two Environments:
