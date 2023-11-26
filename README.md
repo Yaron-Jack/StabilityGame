@@ -7,25 +7,21 @@ Players are tasked with maintaining stability and control over an occupied provi
 
 <h3>Gameplay Mechanics</h3>
 <ul>
-  <ul></ul>
-  <li>Resource Management: Efficiently allocate troops, money, and supplies.</li>
-  <li>Decision Trees: Make impactful choices that influence unrest, manpower, and international reputation.</li>
-  <li>Dialogue Interactions: Engage with mayors, rebels, and diplomats for information and negotiations.</li>
+  <li><strong>Resource Management:</strong> Efficiently allocate troops, money, and supplies.</li>
+  <li><strong>Decision Trees:</strong> Make impactful choices that influence unrest, manpower, and international reputation.</li>
+  <li><strong>Dialogue Interactions:</strong> Engage with mayors, rebels, and diplomats for information and negotiations.</li>
 </ul>
 
-
-
-<h3>Game features</h3>
+<h3>Game Features</h3>
 <ul>
-  <li>Adaptive Storyline: The narrative changes based on your decisions, leading to multiple endings.</li>
-  <li>Map View: Oversee the town's status, move troops, and manage resources.</li>
-  <li>Office View: Engage in dialogue-based interactions.</li>
-  <li>Dynamic Metrics: Track 'Unrest Level', 'Manpower', 'Treasury', and 'International Reputation'.</li>
-  <li>Timed Events: Respond to crises like natural disasters and uprisings.</li>
-  <li>Achievements and Penalties: Earn rewards or face consequences based on your leadership.</li>
-  <li>Endings: each game has a different ending. Each ending depends on the gameplay.</li>
+  <li><strong>Adaptive Storyline:</strong> The narrative changes based on your decisions, leading to multiple endings.</li>
+  <li><strong>Map View:</strong> Oversee the town's status, move troops, and manage resources.</li>
+  <li><strong>Office View:</strong> Engage in dialogue-based interactions.</li>
+  <li><strong>Dynamic Metrics:</strong> Track 'Unrest Level', 'Manpower', 'Treasury', and 'International Reputation'.</li>
+  <li><strong>Timed Events:</strong> Respond to crises like natural disasters and uprisings.</li>
+  <li><strong>Achievements and Penalties:</strong> Earn rewards or face consequences based on your leadership.</li>
+  <li><strong>Endings:</strong> Each game has a different ending. Each ending depends on the gameplay.</li>
 </ul>
-
 
 <h3>Characters</h3>
 <ul>
