@@ -21,7 +21,18 @@ Players are tasked with maintaining stability and control over an occupied provi
   <li><strong>Timed Events:</strong> Respond to crises like natural disasters and uprisings.</li>
   <li><strong>Achievements and Penalties:</strong> Earn rewards or face consequences based on your leadership.</li>
   <li><strong>Endings:</strong> Each game has a different ending. Each ending depends on the gameplay.</li>
+  
+  <li><ul>
+  <li><h3>Metrics to balance</h3></li>
+  <li><strong>Unrest Level:</strong> Manage to prevent the town from becoming unmanageable.</li>
+  <li><strong>Manpower:</strong> Distribute troops effectively to maintain control.</li>
+  <li><strong>Treasury:</strong> Essential for supplies and maintaining troop loyalty.</li>
+  <li><strong>International Reputation:</strong> Affects aid and diplomatic options.</li>
+  <li><strong>Public Opinion:</strong> Influences political support in your home country.</li>
+  </ul></li>
 </ul>
+
+
 
 <h3>Characters</h3>
 <ul>
@@ -37,9 +48,3 @@ Players are tasked with maintaining stability and control over an occupied provi
     </ul>
   </li>
 </ul>
-Metrics to Balance
-Unrest Level: Manage to prevent the town from becoming unmanageable.
-Manpower: Distribute troops effectively to maintain control.
-Treasury: Essential for supplies and maintaining troop loyalty.
-International Reputation: Affects aid and diplomatic options.
-Public Opinion: Influences political support in your home country.
