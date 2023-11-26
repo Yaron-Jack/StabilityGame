@@ -5,7 +5,7 @@ Stability: Tense horizons is a strategic simulation game built using the Python 
 <h3>Objective</h3>
 Players are tasked with maintaining stability and control over an occupied province. The challenge lies in balancing internal and external pressures, making tough decisions that affect the game's outcome.
 
-Gameplay Mechanics
+<h3>Planned Gameplay Mechanics</h3>
 <ul>
   <ul></ul>
   <li>Resource Management: Efficiently allocate troops, money, and supplies.</li>
@@ -15,14 +15,20 @@ Gameplay Mechanics
 
 
 
-Key Features
-Adaptive Storyline: The narrative changes based on your decisions, leading to multiple endings.
-Two Environments:
-Map View: Oversee the town's status, move troops, and manage resources. [Photo]
-Office View: Engage in dialogue-based interactions. [Photo]
-Dynamic Metrics: Track 'Unrest Level', 'Manpower', 'Treasury', and 'International Reputation'.
-Timed Events: Respond to crises like natural disasters and uprisings.
-Achievements and Penalties: Earn rewards or face consequences based on your leadership.
+<h3>Planned Game features</h3>
+<ul>
+  <li>Adaptive Storyline: The narrative changes based on your decisions, leading to multiple endings.</li>
+  <li>Map View: Oversee the town's status, move troops, and manage resources.</li>
+  <li>Office View: Engage in dialogue-based interactions.</li>
+  <li>Dynamic Metrics: Track 'Unrest Level', 'Manpower', 'Treasury', and 'International Reputation'.</li>
+  <li>Timed Events: Respond to crises like natural disasters and uprisings.</li>
+  <li>Achievements and Penalties: Earn rewards or face consequences based on your leadership.</li>
+  <li>Endings: each game has a different ending. Each ending depends on the gameplay.</li>
+</ul>
+
+
+
+
 Characters
 Local Mayor: Provides insight into the sentiments of the local populace.
 Rebel Leader: A potential negotiator or adversary.
