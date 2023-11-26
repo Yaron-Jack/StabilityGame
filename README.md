@@ -1,4 +1,4 @@
-"Stability: Tense horizons"
+<h1>"Stability: Tense horizons"</h1>
 Overview
 "Occupation: The Delicate Balance" is a strategic simulation game built using the Python Pygame library, where players assume the role of a commander of an occupying foreign army. The game blends strategic decision-making with resource management, set against a backdrop rich in historical and geopolitical intricacies.
 
