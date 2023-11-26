@@ -10,6 +10,7 @@ Players are tasked with maintaining stability and control over an occupied provi
   <li><strong>Resource Management:</strong> Efficiently allocate troops, money, and supplies.</li>
   <li><strong>Decision Trees:</strong> Make impactful choices that influence unrest, manpower, and international reputation.</li>
   <li><strong>Dialogue Interactions:</strong> Engage with mayors, rebels, and diplomats for information and negotiations.</li>
+  <li><strong>Turn based game:</strong> The game will be easier to program and manage.</li>
 </ul>
 
 <h3>Game Features</h3>
