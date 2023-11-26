@@ -28,14 +28,19 @@ Players are tasked with maintaining stability and control over an occupied provi
 
 
 <h3>Characters</h3>
-Local Mayor: Provides insight into the sentiments of the local populace.
-Rebel Leader: A potential negotiator or adversary.
-Foreign Diplomat: Influences international standing and offers a global perspective.
-Advisors: Military, Financial, and Political, each offering unique advice.
-Sample Scenarios
-Civil Uprising: Choose between force or negotiation, impacting unrest and reputation.
-Supply Shortage: Decide on rationing or seeking international aid with potential conditions.
-Foreign Pressure: Handle international media presence and its effects on reputation.
+<ul>
+  <li><strong>Local Mayor:</strong> Provides insight into the sentiments of the local populace.</li>
+  <li><strong>Rebel Leader:</strong> A potential negotiator or adversary.</li>
+  <li><strong>Foreign Diplomat:</strong> Influences international standing and offers a global perspective.</li>
+  <li><strong>Advisors:</strong> Military, Financial, and Political, each offering unique advice.</li>
+  <li><strong>Sample Scenarios</strong>
+    <ul>
+      <li><strong>Civil Uprising:</strong> Choose between force or negotiation, impacting unrest and reputation.</li>
+      <li><strong>Supply Shortage:</strong> Decide on rationing or seeking international aid with potential conditions.</li>
+      <li><strong>Foreign Pressure:</strong> Handle international media presence and its effects on reputation.</li>
+    </ul>
+  </li>
+</ul>
 Metrics to Balance
 Unrest Level: Manage to prevent the town from becoming unmanageable.
 Manpower: Distribute troops effectively to maintain control.
