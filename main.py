@@ -5,7 +5,7 @@ pygame.init()
 
 # Screen dimensions
 
-screen_width, screen_height = 800, 600
+screen_width, screen_height = 1024, 565
 
 screen = pygame.display.set_mode((screen_width, screen_height))
 
@@ -22,6 +22,14 @@ pygame.display.set_caption('Stability: tense horizons')
 
 # Main menu background image load
 background_image = pygame.image.load("Assests\Graphics\Menu\BackgroundSoilders.png")
+title_menu_image = pygame.image.load("Assests\Graphics\Menu\TitleMenuEmpty1024.png")
+
+
+# Game states
+TITLE_MENU, GAME_PLAY, SETTINGS_MENU = range(3)
+
+# Current game states
+game_state = TITLE_MENU
 
 # Main loop flag
 
@@ -32,11 +40,16 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
+    if game_state == TITLE_MENU: # If the player in the Title menu
+        screen.blit(title_menu_image, (0, 0))
+        # TODO: Title menu functionality
+
+    if game_state == GAME_PLAY: # If the player is in the Game play state
+        screen.blit(title_menu_image, (0,0))
+        #TODO: This is where the gameplay functionality will come in
 
 
-    # Displaying background image:
 
-    screen.blit(background_image, (0, 0))
 
     # Update display
     pygame.display.flip()
