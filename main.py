@@ -1,5 +1,6 @@
 import pygame
 import sys
+from Classes import Menu, Button
 
 pygame.init()
 
@@ -21,7 +22,6 @@ pygame.display.set_icon(icon)
 pygame.display.set_caption('Stability: tense horizons')
 
 # Main menu background image load
-background_image = pygame.image.load("Assests\Graphics\Menu\BackgroundSoilders.png")
 title_menu_image = pygame.image.load("Assests\Graphics\Menu\TitleMenuEmpty1024.png")
 
 
@@ -41,8 +41,12 @@ while running:
             running = False
 
     if game_state == TITLE_MENU: # If the player in the Title menu
-        screen.blit(title_menu_image, (0, 0))
-        # TODO: Title menu functionality
+        # Title menu functionality
+
+        screen.blit(title_menu_image, (0, 0)) # Drawing background image
+
+
+
 
     if game_state == GAME_PLAY: # If the player is in the Game play state
         screen.blit(title_menu_image, (0,0))
