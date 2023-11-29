@@ -1,6 +1,8 @@
 import pygame
 import sys
-from Classes import Menu, Button
+from Classes.Menu import Menu
+from Classes.Button import Button
+
 
 pygame.init()
 
@@ -21,9 +23,19 @@ pygame.display.set_icon(icon)
 
 pygame.display.set_caption('Stability: tense horizons')
 
-# Main menu background image load
+# Title menu background image load
 title_menu_image = pygame.image.load("Assests\Graphics\Menu\TitleMenuEmpty1024.png")
 
+# Title menu buttons:
+titleButtonWidth = 130
+titleButtonHeight = 60
+start_game_button = Button(151, 480, 'Assests/Graphics/Menu/TitleMenuButtons/StartGame.png', width=titleButtonWidth, height=titleButtonHeight)
+load_game_button = Button(351, 480, 'Assests/Graphics/Menu/TitleMenuButtons/LoadGame.png', width=titleButtonWidth, height=titleButtonHeight)
+options_button = Button(551, 480, 'Assests/Graphics/Menu/TitleMenuButtons/Options.png', width=titleButtonWidth, height=titleButtonHeight)
+exit_game_button = Button(751, 480, 'Assests/Graphics/Menu/TitleMenuButtons/ExitGame.png', width=titleButtonWidth, height=titleButtonHeight)
+
+# Title menu Navigation
+title_menu = Menu(screen, [start_game_button, load_game_button, options_button, exit_game_button])
 
 # Game states
 TITLE_MENU, GAME_PLAY, SETTINGS_MENU = range(3)
@@ -41,9 +53,17 @@ while running:
             running = False
 
     if game_state == TITLE_MENU: # If the player in the Title menu
-        # Title menu functionality
+        # TODO: menu functionality
+        # TODO: Title navigation bar
 
-        screen.blit(title_menu_image, (0, 0)) # Drawing background image
+
+        screen.blit(title_menu_image, (0, 0))   # Clear the screen, redraw background image
+        title_menu.draw()
+        pygame.display.flip()
+
+
+
+
 
 
 
