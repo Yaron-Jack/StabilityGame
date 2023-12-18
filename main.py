@@ -47,25 +47,21 @@ game_state = TITLE_MENU
 
 running = True
 
+def start_game_callback():
+    print("Game state:", game_state)  # Replace `game_state` with your game state variable
+    print("Start game was clicked")
+
 while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
 
-    if game_state == TITLE_MENU: # If the player in the Title menu
-        # TODO: menu functionality
-        # TODO: Title navigation bar
-
+    # Handle button events inside the event loop
+    if game_state == TITLE_MENU:
 
         screen.blit(title_menu_image, (0, 0))   # Clear the screen, redraw background image
         title_menu.draw()
         pygame.display.flip()
-
-
-
-
-
-
 
 
     if game_state == GAME_PLAY: # If the player is in the Game play state

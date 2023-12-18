@@ -31,11 +31,19 @@ class Button:
         else:
             screen.blit(self.image, self.rect)
 
+    def is_mouse_over(self, pos):
+        # Check if the mouse is over the button
+        button_rect = self.image.get_rect(topleft=(self.x, self.y))
+        return button_rect.collidepoint(pos)
+
     def handle_event(self, event):
-        if event.type == pygame.MOUSEMOTION:
-            self.hovered = self.rect.collidepoint(event.pos)
-        elif event.type == pygame.MOUSEBUTTONDOWN:
-            if self.hovered and self.callback:
-                self.callback()
-                return True
-        return False
+        # Check for mouse click event
+        if event.type == pygame.MOUSEBUTTONDOWN:
+            mouse_pos = event.pos
+            if self.is_mouse_over(mouse_pos):
+                # Execute the callback function if it exists
+                if self.callback:
+                    self.callback()
+
+
+

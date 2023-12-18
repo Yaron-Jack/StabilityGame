@@ -13,4 +13,6 @@ class Menu:
         for item in self.items:
             if item.handle.event(event):
                 return item  # Return the button that was clicked
+
         return None
+
